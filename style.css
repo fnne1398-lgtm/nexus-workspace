@@ -1,0 +1,56 @@
+/* أنماط样式 للموقع */
+/* تعريف أنماط للعناصر */
+body {
+    /* لون خلفية الموقع */
+    background-color: #f2f2f2;
+    /* لون النص */
+    color: #333;
+    /* حجم النص */
+    font-size: 16px;
+    /* عائلة الخط */
+    font-family: Arial, sans-serif;
+}
+
+/* أنماط للرأس */
+header {
+    /* لون خلفية الرأس */
+    background-color: #333;
+    /* لون النص */
+    color: #fff;
+    /* ارتفاع الرأس */
+    height: 60px;
+    /* حاشية داخلية */
+    padding: 10px;
+    /* محاذاة النص */
+    text-align: center;
+}
+
+/* أنماط للقائمة */
+nav ul {
+    /* إزالة القائمة الافتراضية */
+    list-style: none;
+    /* محاذاة النص */
+    text-align: center;
+}
+
+/* أنماط للعناصر في القائمة */
+nav ul li {
+    /* عرض العنصر */
+    display: inline-block;
+    /* حاشية خارجية */
+    margin: 10px;
+}
+
+/* أنماط للروابط */
+a {
+    /* لون النص */
+    color: #337ab7;
+    /* خط تحت النص */
+    text-decoration: none;
+}
+
+/* أنماط عند وضع الفأرة على الرابط */
+a:hover {
+    /* لون النص */
+    color: #23527c;
+}
